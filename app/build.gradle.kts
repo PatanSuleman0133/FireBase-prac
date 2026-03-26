@@ -49,10 +49,12 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    // firebase
     implementation(platform("com.google.firebase:firebase-bom:34.10.0"))
     implementation("com.google.firebase:firebase-analytics")
 
+    // firebase Authentication
     implementation("com.google.firebase:firebase-auth")
-
+    // firebase push notification
     implementation("com.google.firebase:firebase-messaging:23.4.1")
 }
